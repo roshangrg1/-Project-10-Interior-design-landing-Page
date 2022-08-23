@@ -1,0 +1,167 @@
+body{
+   background:linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.4)), url('./assest/wallpaperflare.com_wallpaper.jpg');
+   background-size: cover;
+   height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    max-width: 80rem;
+    margin: auto;
+}
+.list-items{
+    display: flex;
+    gap: 50px;
+    list-style-type:none;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    
+}
+.bar{
+    display: none;
+}
+.logo{
+    margin-top: -20px;
+}
+
+.logo img{
+    width: 120px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.left-section h1{
+    color: #fff;
+    font-size: 100px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.learn-more-btn{
+    padding: 10px 30px;
+    font-size: 30px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    background-color: transparent;
+    margin-left: 80px;
+}
+.right-section .top{
+    color: #fff;
+    margin-top: 100px;
+    margin-right: 100px;
+    background-color: grey;
+    padding: 10px 15px;
+}
+.fa-solid{
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #000;
+    border-radius: 50px;
+}
+.circle-line1{
+    height: 100px;
+    width: 5px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+.circle{ 
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+   margin-left: 93px;
+}
+.right-section .down{
+    color: #fff;
+    background-color: grey;
+    padding: 10px 15px;
+    width: 180px;
+    margin-left: -300px;
+}
+.circle-line2{
+    height: 5px;
+    width: 100px;
+    background-color: #fff;
+    margin-left: -89px;
+    margin-top: -70px;
+}
+.circle2{ 
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: -10px;
+    
+}
+@media screen and (max-width:1305px) {
+    .left-section h1{
+        font-size: 70px;
+    }
+    
+}
+@media screen and (max-width:1050px) {
+    .left-section h1{
+        font-size: 50px;
+    }
+    
+}
+@media screen and (max-width:862px) {
+    .left-section h1{
+        font-size: 30px;
+    }
+    .learn-more-btn{
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+ 
+    .circle{
+       position: relative;
+       left: -50px;
+      
+       
+
+    }
+    .circle-line1{
+       position: relative;
+       left: -50px;
+       
+        
+    }
+    
+} 
+@media screen and (max-width:789px) {
+   .list-items{
+    display: none;
+   }
+   .bar{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -20px;
+   }
+    
+}
+@media screen and (max-width:590px) {
+  .down{
+    position: relative;
+    left: 80px;
+  }
+  .circle-line2{
+    position: relative;
+    left: 80px;
+  }
+  .circle2{
+    position: relative;
+    left: 80px;
+  }
+}
+
+
+
