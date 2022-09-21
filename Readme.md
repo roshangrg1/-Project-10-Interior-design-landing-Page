@@ -1,4 +1,4 @@
-# Project-9 Interior design landing Page [go-live](https://p-10.netlify.app/)
+# Project-10 Interior design landing Page [go-live](https://p-10.netlify.app/)
 This is simple website of home page. In this project I have only used core css. It is responsive as well.
 
 
@@ -8,7 +8,6 @@ This is simple website of home page. In this project I have only used core css. 
 ## Screenshots
 
 ![App Screenshot](./screenshot/Screenshot%20(123).png)
-![App Screenshot](./screenshot/Screenshot%20(124).png)
 ![App Screenshot](./screenshot/Screenshot%20(125).png)
 
 
